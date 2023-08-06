@@ -1,0 +1,41 @@
+@mixin fontLogo {
+    font-family: $fontSpecial ;
+    font-size: 30px ;
+    font-weight: 600 ;
+    color: $colSmoke ;
+}
+
+@mixin fontMenu {
+    font-family: $fontTitle ;
+    font-size: 15px ;
+    font-weight: 500 ;
+    color: $colSmoke ;
+}
+
+@mixin fontTitlePrin {
+    font-family: $fontTitle ;
+    font-size: 50px ;
+    font-weight: 600 ;
+    color: $colWithe ;
+}
+
+@mixin fontTitleSec {
+    font-family: $fontTitle ;
+    font-size: 35px ;
+    font-weight: 600 ;
+    color: $colWithe ;
+}
+
+@mixin fontText {
+    font-family: $fontText ;
+    font-size: 17px ;
+    font-weight: 400 ;
+    color: $colSmoke;
+}
+
+@mixin fontNumber {
+    font-family: $fontTitle ;
+    font-size: 25px ;
+    font-weight: 500 ;
+    color: $colWithe ;
+}

@@ -1,0 +1,54 @@
+
+.contHome {
+    background:
+    linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+    ),
+    url(../../../public/backgroundHome.jpg);
+    background-size: cover;
+}
+
+#card01 {
+    background:
+    linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+    ),
+    url(../../../public/bmw.jpg);
+    background-size: cover;
+}
+
+#card02 {
+    background:
+    linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+    ),
+    url(../../../public/lambo.jpg);
+    background-size: cover;
+}
+
+#card03 {
+    background:
+    linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+    ),
+    url(../../../public/mercedez.jpg);
+    background-size: cover;
+}
+
+#card04 {
+    background:
+    linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+    ),
+    url(../../../public/porshe.jpg);
+    background-size: cover;
+}
+
+.footer {
+    background-color: $colBlack ;
+}

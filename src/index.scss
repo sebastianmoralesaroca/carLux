@@ -1,1 +1,23 @@
+// base
+@import './sass/base/styleDefect.scss' ;
+@import './sass/base/colores.scss' ;
+@import './sass/base/fonts.scss' ;
+@import './sass/base/mediaQueris.scss' ;
 
+//coponents
+@import './sass/components/buttons.scss' ;
+@import './sass/components/fontText.scss' ;
+@import './sass/components/image.scss' ;
+@import './sass/components/background.scss' ;
+
+//layout
+@import './sass/layout/header.scss' ;
+@import './sass/layout/home.scss' ;
+@import './sass/layout/about.scss' ;
+@import './sass/layout/number.scss' ;
+@import './sass/layout/card.scss' ;
+@import './sass/layout/contact.scss' ;
+@import './sass/layout/footer.scss' ;
+
+// mobile
+@import './sass/Mobile/indexMobile.scss' ;

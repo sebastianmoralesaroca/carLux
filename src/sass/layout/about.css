@@ -1,0 +1,13 @@
+.sectAbout {
+  height: 400px;
+  background-color: black;
+  padding: 10%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.sectAbout .contTextAbout {
+  grid-column: 1;
+}
+.sectAbout .contImgAbout {
+  grid-column: 2;
+}/*# sourceMappingURL=about.css.map */

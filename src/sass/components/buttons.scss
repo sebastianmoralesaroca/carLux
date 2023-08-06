@@ -1,0 +1,48 @@
+@mixin btnPrin {
+    border: none ;
+    border-radius: 20px ;
+    background-color: $colYellow ;
+    padding: 12px 30px  ;
+
+    a {
+        font-family: $fontTitle ;
+        font-size: 15px ;
+        font-weight: 400 ;
+        color: $colSmoke ;
+    }
+}
+
+@mixin btnSec {
+    border: none ;
+    background: transparent ;
+    a {
+        font-family: $fontTitle ;
+        font-size: 15px ;
+        font-weight: 400 ;
+        color: $colSmoke ;
+    }
+}
+
+@mixin inpForm {
+    width: 95% ;
+    padding: 10px 0px 10px 10px ;
+    font-family: $fontText ;
+    font-size: 15px ;
+    font-weight: 400 ;
+    color: grey ;
+    background-color: $colBlack ;
+    border: none ;
+    border-radius: 5px ;
+    margin-top: 5px ;
+}
+
+@mixin btnSub {
+    border: none ;
+    border-radius: 20px ;
+    background-color: $colYellow ;
+    padding: 12px 30px  ;
+    font-family: $fontTitle ;
+    font-size: 15px ;
+    font-weight: 400 ;
+    color: $colSmoke ;
+}

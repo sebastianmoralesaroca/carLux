@@ -1,0 +1,64 @@
+.sectContact {
+    height: 350px ;
+    padding: 10% 10% ;
+    margin-top: -10px ;
+    background-color: black ;
+
+    .titleContact {
+        @include fontTitleSec ;
+    }
+
+    .contForm {
+        display: grid ;
+        grid-template-columns: repeat(2, 1fr) ;
+        grid-gap: 20px ;
+
+        .form {
+            grid-column: 1 ;
+
+            .inpName {
+                @include inpForm ;
+            }
+
+            .inpEmail {
+                @include inpForm ;
+                width: 48% ;
+            }
+
+            .inpPhone {
+                @include inpForm ;
+                width: 43% ;
+            }
+
+            .inpText {
+                @include inpForm ;
+                height: 170px ;
+            }
+
+            .inpSubmit {
+                @include btnSub ;
+                width: 97% ;
+                margin-top: 20px ;
+            }
+        }
+
+        .contDate {
+
+            .numDate {
+                @include fontText ;
+                font-size: 30px ;
+                margin-top: 20px ;
+            }
+
+            .mailDate {
+                @include fontText ;
+                margin-top: 20px ;
+            }
+
+            .addresDate {
+                @include fontText ;
+                margin-top: 20px ;
+            }
+        }
+    }
+}

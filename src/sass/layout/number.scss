@@ -1,0 +1,25 @@
+.sectNumber {
+    padding: 10% ;
+    display: grid ;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px ;
+    background-color: black ;
+
+    .cardNumber {
+        display: grid ;
+        grid-template-columns: 40% 60% ;
+        grid-gap: 5px ;
+
+        .numberCard {
+            @include fontTitleSec ;
+            display: inline ;
+            font-size: 65px ;
+        }
+
+        .textCard {
+            @include fontText ;
+            display: inline ;
+            margin: revert ;
+        }
+    }
+}

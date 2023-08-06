@@ -1,0 +1,189 @@
+// Media Tablet
+@media screen and (min-width: $media-small) and (max-width: $media-medium) and (orientation:portrait) {
+    .contHeader {
+        padding: 0px 10% ;
+        .contLogo {
+            .titleLogo {
+                display: inline ;
+            }
+        }
+        .navMenu {
+            display: none ;
+            .menuBurger {
+                display: inline ;
+                width: 30px ;
+                height: 30px ;
+                align-items: end ;
+                margin-top: 10px ;
+            }
+            .ulMenu {
+                .liMenu {}
+            }
+        }
+    }
+    .contHome {
+        padding: 0px 8% ;
+        padding-top: 250px ;
+        .btnHome {}
+    }
+    .sectAbout {
+        height: auto ;
+        padding: 10% 5% ;
+        display: flex ;
+        flex-direction: column ;
+    .contTextAbout {
+        .titleAbout {}
+
+        .textAbout {}
+
+        .btnAbout {
+            margin-top: 40px ;
+            margin-bottom: 40px ;
+        }
+    }
+
+    .contImgAbout {
+            height: 500px ;
+    }
+}
+    .sectNumber {
+        display: grid ;
+        grid-template-columns: repeat(2, 1fr) ;
+        grid-template-rows: repeat(2, 1fr) ;
+        grid-gap: 20px ;
+
+        .cardNumber {
+            .numberCard {}
+            .textCard {}
+        }
+    }
+    .sectCard {
+        display: grid ;
+        grid-template-columns: repeat(3, 1fr);
+        .cardCar {
+            .titleCardCar {}
+            .btnCardCar {}
+        }
+        #card01 {
+            display: none ;
+        }
+    }
+    .sectContact {
+        padding: 20% 3% ;
+        .titleContact {}
+        .contForm {
+            display: grid ;
+            grid-template-columns: 60% 40% ;
+            .form {
+                .inpName {}
+                .inpEmail {}
+                .inpPhone {}
+                .inpText {}
+                .inpSubmit {}
+            }
+            .contDate {
+                .numDate {}
+                .mailDate {}
+                .addresDate {}
+            }
+        }
+    }
+    .footer {
+        .titleFooter {}
+        .contSocialMedia {
+            .ig {}
+            .lk {}
+        }
+    }
+}
+
+
+// Media Mobile Default
+@media screen and (max-width: $media-small) and (orientation:portrait) {
+
+}
+
+
+/*
+    .contHeader {
+        padding: 0px 10% ;
+        .contLogo {
+            .titleLogo {
+                display: inline ;
+            }
+        }
+        .navMenu {
+            display: none ;
+            .menuBurger {
+                display: inline ;
+                width: 30px ;
+                height: 30px ;
+                align-items: end ;
+                margin-top: 10px ;
+            }
+            .ulMenu {
+                .liMenu {}
+            }
+        }
+    }
+    .contHome {
+        padding: 0px 8% ;
+        padding-top: 250px ;
+        .btnHome {}
+    }
+    .sectAbout {
+        height: auto ;
+        padding: 10% 5% ;
+        display: flex ;
+        flex-direction: column ;
+    .contTextAbout {
+        .titleAbout {}
+
+        .textAbout {}
+
+        .btnAbout {}
+    }
+
+    .contImgAbout {
+            height: 500px ;
+    }
+}
+    .sectNumber {
+        padding: 5% ;
+        grid-gap: 20px ;
+        .cardNumber {
+            .numberCard {}
+            .textCard {}
+        }
+    }
+    .sectCard {
+        .cardCar {
+            .titleCardCar {}
+            .btnCardCar {}
+        }
+    }
+    .sectContact {
+        .titleContact {}
+        .contForm {
+            .form {
+                .inpName {}
+                .inpEmail {}
+                .inpPhone {}
+                .inpText {}
+                .inpSubmit {}
+            }
+            .contDate {
+                .numDate {}
+                .mailDate {}
+                .addresDate {}
+            }
+        }
+    }
+    .footer {
+        .titleFooter {}
+        .contSocialMedia {
+            .ig {}
+            .lk {}
+        }
+    }
+*/

@@ -1,0 +1,34 @@
+.contHeader {
+    padding: 0px 10% ;
+    display: flex ;
+    justify-content: space-between ;
+    background: transparent ;
+
+    .contLogo {
+
+        .titleLogo {
+            @include fontLogo ;
+        }
+    }
+
+    .navMenu {
+        width: 300px ;
+
+        .menuBurger {
+            display: none ;
+        }
+
+        .ulMenu {
+            list-style-type: none ;
+            margin: auto ;
+            display: flex;
+            justify-content: space-between;
+
+            .liMenu {
+                @include fontMenu ;
+                display: inline ;
+                padding-top: 5%;
+            }
+        }
+    }
+}

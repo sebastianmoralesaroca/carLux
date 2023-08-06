@@ -1,0 +1,16 @@
+.contHome {
+    height: 500px ;
+    margin-top: -50px ;
+    padding: 0px 15% ;
+    padding-top: 250px ;
+    display:block;
+    margin:center;
+
+    .titleHome {
+        @include fontTitlePrin ;
+    }
+    .btnHome {
+        @include btnPrin ;
+        margin-top: 20px ;
+    }
+}

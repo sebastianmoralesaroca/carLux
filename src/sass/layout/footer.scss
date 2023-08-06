@@ -1,0 +1,20 @@
+.footer {
+    height: auto ;
+    padding: 3% 10% ;
+    display: grid ;
+    grid-template-columns: repeat(2, 1fr) ;
+
+    .titleFooter {
+        @include fontLogo ;
+        grid-column: 1 ;
+    }
+
+    .contSocialMedia {
+        grid-column: 2 ;
+        text-align: end ;
+
+        .ig {}
+
+        .lk {}
+    }
+}

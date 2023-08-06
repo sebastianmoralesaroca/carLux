@@ -1,0 +1,30 @@
+.sectAbout {
+    height: 400px ;
+    background-color: black ;
+    padding: 10% ;
+    display: grid ;
+    grid-template-columns: repeat(2, 1fr) ;
+    grid-gap: 20px ;
+
+    .contTextAbout {
+        grid-column: 1 ;
+
+        .titleAbout {
+            @include fontTitleSec ;
+            margin-bottom: 20px ;
+        }
+
+        .textAbout {
+            @include fontText ;
+        }
+
+        .btnAbout {
+            @include btnSec ;
+            color: $colYellow ;
+        }
+    }
+
+    .contImgAbout {
+        grid-column: 2 ;
+    }
+}
