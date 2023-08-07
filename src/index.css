@@ -81,11 +81,14 @@
   font-weight: 600;
   color: #cfcfcf;
 }
+.contHeader .contBurger {
+  display: none;
+}
+.contHeader .contBurger .menuBurger {
+  display: none;
+}
 .contHeader .navMenu {
   width: 300px;
-}
-.contHeader .navMenu .menuBurger {
-  display: none;
 }
 .contHeader .navMenu .ulMenu {
   list-style-type: none;
@@ -285,7 +288,7 @@
   border: none;
   border-radius: 5px;
   margin-top: 5px;
-  width: 43%;
+  width: 44.5%;
 }
 .sectContact .contForm .form .inpText {
   width: 95%;
@@ -359,15 +362,18 @@
   .contHeader .contLogo .titleLogo {
     display: inline;
   }
-  .contHeader .navMenu {
-    display: none;
+  .contHeader .contBurger {
+    display: block;
   }
-  .contHeader .navMenu .menuBurger {
+  .contHeader .contBurger .menuBurger {
     display: inline;
     width: 30px;
     height: 30px;
     align-items: end;
     margin-top: 10px;
+  }
+  .contHeader .navMenu {
+    display: none;
   }
   .contHome {
     padding: 0px 8%;
@@ -406,87 +412,106 @@
     display: grid;
     grid-template-columns: 60% 40%;
   }
+  .sectContact .contForm .form .inpPhone {
+    width: 43%;
+  }
 }
-/*
-    .contHeader {
-        padding: 0px 10% ;
-        .contLogo {
-            .titleLogo {
-                display: inline ;
-            }
-        }
-        .navMenu {
-            display: none ;
-            .menuBurger {
-                display: inline ;
-                width: 30px ;
-                height: 30px ;
-                align-items: end ;
-                margin-top: 10px ;
-            }
-            .ulMenu {
-                .liMenu {}
-            }
-        }
-    }
-    .contHome {
-        padding: 0px 8% ;
-        padding-top: 250px ;
-        .btnHome {}
-    }
-    .sectAbout {
-        height: auto ;
-        padding: 10% 5% ;
-        display: flex ;
-        flex-direction: column ;
-    .contTextAbout {
-        .titleAbout {}
-
-        .textAbout {}
-
-        .btnAbout {}
-    }
-
-    .contImgAbout {
-            height: 500px ;
-    }
-}
-    .sectNumber {
-        padding: 5% ;
-        grid-gap: 20px ;
-        .cardNumber {
-            .numberCard {}
-            .textCard {}
-        }
-    }
-    .sectCard {
-        .cardCar {
-            .titleCardCar {}
-            .btnCardCar {}
-        }
-    }
-    .sectContact {
-        .titleContact {}
-        .contForm {
-            .form {
-                .inpName {}
-                .inpEmail {}
-                .inpPhone {}
-                .inpText {}
-                .inpSubmit {}
-            }
-            .contDate {
-                .numDate {}
-                .mailDate {}
-                .addresDate {}
-            }
-        }
-    }
-    .footer {
-        .titleFooter {}
-        .contSocialMedia {
-            .ig {}
-            .lk {}
-        }
-    }
-*//*# sourceMappingURL=index.css.map */
+@media screen and (max-width: 575px) {
+  .contHeader {
+    padding: 0px 10%;
+  }
+  .contHeader .contLogo .titleLogo {
+    display: inline;
+    font-size: 25px;
+  }
+  .contHeader .contBurger {
+    display: block;
+  }
+  .contHeader .contBurger .menuBurger {
+    display: inline;
+    width: 30px;
+    height: 30px;
+    align-items: end;
+    margin-top: 10px;
+  }
+  .contHeader .navMenu {
+    display: none;
+  }
+  .contHome {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../../public/backgroundHomeMobile.jpg);
+    background-size: cover;
+    padding: 0px 8%;
+    padding-top: 250px;
+  }
+  .contHome .titleHome {
+    font-size: 40px;
+  }
+  .sectAbout {
+    height: auto;
+    padding: 10% 3%;
+    display: flex;
+    flex-direction: column;
+  }
+  .sectAbout .contTextAbout .btnAbout {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .sectAbout .contImgAbout {
+    height: 260px;
+  }
+  .sectNumber {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  .sectNumber .cardNumber {
+    display: block;
+    text-align: center;
+  }
+  .sectNumber .cardNumber .numberCard {
+    display: block;
+  }
+  .sectNumber .cardNumber .textCard {
+    text-align: center;
+  }
+  .sectCard {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 100%;
+  }
+  .sectCard .cardCar {
+    height: 150px;
+  }
+  .sectCard .cardCar .btnCardCar {
+    margin-bottom: 0px;
+  }
+  .sectCard #card01 {
+    display: none;
+  }
+  .sectCard #card02 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../../public/lamboMobile.jpg);
+    background-size: cover;
+  }
+  .sectCard #card03 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../../public/mercedesMobile.jpg);
+    background-size: cover;
+  }
+  .sectCard #card04 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../../public/porsheMobile.jpg);
+    background-size: cover;
+  }
+  .sectContact {
+    padding: 20% 3%;
+    margin-top: 100px;
+    height: auto;
+  }
+  .sectContact .contForm {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(2, auto);
+  }
+  .sectContact .contForm .form .inpPhone {
+    width: 44%;
+  }
+}/*# sourceMappingURL=index.css.map */

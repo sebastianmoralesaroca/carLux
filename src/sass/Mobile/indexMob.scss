@@ -1,0 +1,165 @@
+// Media Mobile Default
+@media screen and (max-width: $media-small) {
+    .contHeader {
+        padding: 0px 10% ;
+        .contLogo {
+            .titleLogo {
+                display: inline ;
+                font-size: 25px ;
+            }
+        }
+        .contBurger {
+            display: block ;
+            .menuBurger {
+                display: inline ;
+                width: 30px ;
+                height: 30px ;
+                align-items: end ;
+                margin-top: 10px ;
+            }
+        }
+        .navMenu {
+            display: none ;
+            .ulMenu {
+                .liMenu {}
+            }
+        }
+    }
+    .contHome {
+        background:
+            linear-gradient(
+                rgba(0, 0, 0, 0.7),
+                rgba(0, 0, 0, 0.7)
+            ),
+            url(../../../public/backgroundHomeMobile.jpg);
+    background-size: cover;
+        padding: 0px 8% ;
+        padding-top: 250px ;
+        .titleHome {
+            font-size: 40px ;
+        }
+        .btnHome {}
+    }
+    .sectAbout {
+        height: auto ;
+        padding: 10% 3% ;
+        display: flex ;
+        flex-direction: column ;
+    .contTextAbout {
+        .titleAbout {}
+
+        .textAbout {}
+
+        .btnAbout {
+            margin-top: 40px ;
+            margin-bottom: 40px ;
+        }
+    }
+    .contImgAbout {
+        height: 260px ;
+    }
+}
+    .sectNumber {
+        display: grid ;
+        grid-template-columns: repeat(2, 1fr) ;
+        grid-template-rows: repeat(2, 1fr) ;
+        grid-gap: 20px ;
+
+        .cardNumber {
+            display: block ;
+            text-align: center ;
+            .numberCard {
+                display: block ;
+            }
+            .textCard {
+                text-align: center ;
+            }
+        }
+    }
+    .sectCard {
+        display: grid ;
+        grid-template-rows: repeat(3, 1fr) ;
+        grid-template-columns: 100% ;
+        .cardCar {
+            height: 150px ;
+            .titleCardCar {}
+            .btnCardCar {
+                margin-bottom: 0px ;
+            }
+        }
+        #card01 {
+            display: none ;
+        }
+        #card02 {
+            background:
+                linear-gradient(
+                    rgba(0, 0, 0, 0.7),
+                    rgba(0, 0, 0, 0.7)
+                ),
+                url(../../../public/lamboMobile.jpg);
+            background-size: cover ;
+        }
+        #card03 {
+            background:
+                linear-gradient(
+                    rgba(0, 0, 0, 0.7),
+                    rgba(0, 0, 0, 0.7)
+                ),
+                url(../../../public/mercedesMobile.jpg);
+            background-size: cover ;
+        }
+        #card04 {
+            background:
+                linear-gradient(
+                    rgba(0, 0, 0, 0.7),
+                    rgba(0, 0, 0, 0.7)
+                ),
+                url(../../../public/porsheMobile.jpg);
+            background-size: cover ;
+        }
+    }
+    .sectContact {
+        padding: 20% 3% ;
+        margin-top: 100px ;
+        height: auto ;
+
+        .titleContact {}
+
+        .contForm {
+            display: grid ;
+            grid-template-columns: 100% ;
+            grid-template-rows: repeat(2, auto);
+
+            .form {
+
+                .inpName {}
+
+                .inpEmail {}
+
+                .inpPhone {
+                    width: 44% ;
+                }
+
+                .inpText {}
+
+                .inpSubmit {}
+            }
+
+            .contDate {
+
+                .numDate {}
+
+                .mailDate {}
+
+                .addresDate {}
+            }
+        }
+    }
+    .footer {
+        .titleFooter {}
+        .contSocialMedia {
+            .ig {}
+            .lk {}
+        }
+    }
+}

@@ -10,13 +10,15 @@
             @include fontLogo ;
         }
     }
-
-    .navMenu {
-        width: 300px ;
-
+    .contBurger {
+        display: none ;
         .menuBurger {
             display: none ;
         }
+    }
+
+    .navMenu {
+        width: 300px ;
 
         .ulMenu {
             list-style-type: none ;
